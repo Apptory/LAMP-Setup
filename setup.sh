@@ -26,7 +26,7 @@ echo "extension=memcache.so" | sudo tee /etc/php5/apache2/conf.d/memcache.ini
 sudo apt-get install php5-memcache
 
 # Adding Specifc Mods
-a2enmod rewrite
+sudo a2enmod rewrite
 
 # Reloading the APP
 sudo /etc/init.d/apache2 restart
